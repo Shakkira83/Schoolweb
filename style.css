@@ -1,0 +1,218 @@
+.header 
+{
+  padding: 3px;
+  text-align: center;
+  background: #f8c3dc;
+  color: white;
+}
+
+.column 
+{
+  float: left;
+  padding: 10px;
+  height: 1500px; 
+}
+
+.left
+{
+  width: 20%;
+}
+
+.right 
+{
+  width: 16%;
+  float : right;
+}
+
+.middle 
+{
+  width: 60%;
+}
+
+.row:after 
+{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) 
+{
+  .column { direction : column; wrap; width : 200%}
+}
+h1
+{
+ font-family : URW BookmanL;
+ color : red;
+ font-size : 35px;
+ background : white;
+ text-align : center;
+}
+h2
+{
+ font-family:Liberation Sans;
+ color: #ff00ff;
+ font-size:45px;
+ background : white;
+ text-align:center;
+}
+h3
+{
+ font-family:URW BookmanL;
+ color : #401d9a;
+ font-size:30px;
+ background:white;
+ font-style : italic;
+}
+h4
+{
+ font-family:Liberation Sans;
+ font-size:20px;
+ text-align : center;
+}
+h5
+{
+ font-family:Liberation Sans;
+ font-size:20px;
+ color:red;
+ background:#00ff00;
+}
+p.solid
+{
+ border-style: solid;
+ text-align : center;
+ padding:50px;
+ margin-left:100px;
+ margin-right:100px;
+}
+
+p.school
+{
+ border-style: solid;
+ text-align : center;
+ line-height :1.5;
+ font-size:23px;
+ padding:50px;
+ margin-left:100px;
+ margin-right:100px;
+}
+
+ul
+{
+ list-style-type : none;
+ margin : 0;
+ padding : 0;
+ overflow :hidden;
+ background : green;
+}
+li
+{
+ float : left;
+ border-right : 1px solid white;
+}
+li a
+{
+ display : block;
+ color : white;
+ text-align : center;
+ padding : 14px 16px;
+ text-decoration : none;
+}
+li a:hover
+{
+ background : black;
+}
+body 
+{
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav 
+{
+  /*height: 100%;
+  width: 200px;
+  position: auto;
+  z-index: 1;
+  top: 0;
+  left: 0;*/
+  background-color: #aaa;
+  overflow-x: hidden;
+ /*padding-top: 20px;*/
+}
+
+.sidenav a 
+{ 
+  padding: 6px 8px 6px 0px;
+  text-decoration: none;
+  font-size: 25px;
+  color: red;
+  display: block;
+}
+
+.sidenav a:hover 
+{
+  color: #f1f1f1;
+}
+
+.main 
+{
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+#staff,#staff th, #staff td 
+{
+  border: 3px solid black;
+  padding: 5px;
+  text-align: center;
+}
+#staff
+{
+  border-spacing: 5px;
+  
+}
+#staff.center
+{
+ margin-left:auto;
+ margin-right:auto;
+}
+#subject,#subject th,#subject td
+{
+  border: 5px solid black;
+  border-collapse: collapse;
+  margin-left:200px;
+  margin-right:100px;
+}
+#subject th, #subject td 
+{
+  padding: 5px;
+  text-align: center;    
+}
+
+#school,#school th, #school td 
+{
+  border: 0px solid black;
+  padding: 5px;
+  text-align: left;
+}
+#school
+{
+  border-spacing: 5px;
+  
+}
+#school.center
+{
+ margin-left:auto;
+ margin-right:auto;
+}
+
+footer 
+{
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+
